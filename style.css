@@ -1,0 +1,85 @@
+body{
+    font-family: 'PT Sans Narrow';
+    background-color: #0c0928;
+    color: #c5c4cb; 
+}
+.wrapper{
+    margin: 20px 180px 0 180px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    font-weight: 400;
+    color: #c5c4cb;
+    text-decoration: none;
+    font-size: 13px;
+}
+.home{
+    display: flex;
+    justify-content: flex-start;
+    color: #c5c4cb;
+    text-decoration: none;  
+ 
+}
+.departments{
+    color: #c5c4cb;
+    text-decoration: none;
+    align-self: center;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 15px;
+}/*
+.BUTTON{
+    display: flex;
+    align-items: center;
+    border: 1px solid #c5c4cb;
+    color: #c5c4cb;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}*/
+.departments:hover {
+    color: #30eeb3;
+}/*
+.BUTTON:hover{
+    color: #30eeb3;
+    border: 1px solid #30eeb3;
+}*/
+/*
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+
+}*/
+@media (max-width: 715px){
+    .menu{
+        display: block;
+    }
+    .home{
+        display: block;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .header{
+        max-width: 100%;
+    }
+}
+@media (max-width: 453px){
+    .header{
+        display: block;
+    }
+    .departments{
+        display: block;
+        text-align: center;
+        padding: 5px 0;
+    }
+
+}
